@@ -1,0 +1,18 @@
+{
+    "contents" : "#Sketch some graphs\nx <- seq(0,10,0.01)\ny = sqrt(x)\nplot(x,y,type=\"l\")\n\n#Problem 10 on Review Questions\n\nz <- (120 - 100)/15\npnorm(z)\n\nz2 <- (180 - 100)/15\npnorm(z2)\nans <- 1 - pnorm(z2)\n\n#examples of some graphs\nx2 <- seq(-4, 4, 0.01)\ny2 = dnorm(x2)\nplot(x2,y2,type=\"l\")\n\nx2 <- seq(-4, 4, 0.01)\ny2 = pnorm(x2)\nplot(x2,y2,type=\"l\")\n",
+    "created" : 1437437078740.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2925388633",
+    "id" : "B75498D0",
+    "lastKnownWriteTime" : 1437437095,
+    "path" : "~/CSC423/Notes_D1.R",
+    "project_path" : "Notes_D1.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
