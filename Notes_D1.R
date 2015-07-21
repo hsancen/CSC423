@@ -20,3 +20,6 @@ plot(x2,y2,type="l")
 x2 <- seq(-4, 4, 0.01)
 y2 = pnorm(x2)
 plot(x2,y2,type="l")
+
+#test for commit 3
+
