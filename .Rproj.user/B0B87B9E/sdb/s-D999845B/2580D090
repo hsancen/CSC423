@@ -1,0 +1,18 @@
+{
+    "contents" : "#what is the area within [-1, 1] standard deviations? you are feeding it z-values\n\nprint(pnorm(1)) #not the right answer\nprint(pnorm(1) - pnorm(-1)) #this is how you do it. need to remove the left half\n\n#what is the area within [-2, 2] standard deviations?\n\nprint(pnorm(2))\nprint(pnorm(2) - pnorm(-2))\n\n#what is the area within [-3, 3] standard deviations?\n\nprint(pnorm(3))\nprint(pnorm(3) - pnorm(-3))\n\n#qnorm() function will give me the z-value I need I just need to pick the percentage\n#Find a 99% confidence interval for z if z ∼ N(0,1)\nprint(qnorm(0.99))\n\n##############################\n#how to create a boxplot in R\n##############################\nx <- c(5,39,75,79,85,90,91,93,93,98)\nboxplot(x)\n\n##############################\n#how to create a histogram in R\n##############################\nhist(x)\nhist(x, breaks=c(0,25,50,75,100))\n\n##############################\n#how to create anormal plot in R\n##############################\nnscores <- qnorm(seq(0.2,0.8,0.2))\nprint(nscores)\n#the nscores vector gives me the z-values neeeded for the % I specified\n\n##############################\n#how to calc pvalue in R\n##############################\n\n#-4.03 is the lower bound of the z-value \nprint(2 * pnorm(-4.03))\n  ",
+    "created" : 1437606646484.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1982083524",
+    "id" : "2580D090",
+    "lastKnownWriteTime" : 1437612545,
+    "path" : "~/CSC423/Notes_D2.R",
+    "project_path" : "Notes_D2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
