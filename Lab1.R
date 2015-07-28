@@ -29,3 +29,5 @@ left_z <- qnorm(.025)
 #5. Create side-by-side boxplots for the data in bp2. 
 boxplot(bp2$Press ~ bp2$Pos)
 
+#6. Create histogram
+hist(bp1$Standing)
